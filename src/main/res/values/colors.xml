@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="window_background_color">#FFFFFF</color>
+    <color name="window_background_grey_color">#F6F6F6</color>
+    <color name="base_color">#FF5B54</color>
+
+    <color name="hint_text_color">#CCCCCC</color>
+    <color name="footer_text_color">#999999</color>
+
+    <color name="color_white">#FFFFFF</color>
+    <color name="color_grey">#888888</color>
+</resources>

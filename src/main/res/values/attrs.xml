@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="hasDivider" format="boolean"></attr>
+    <attr name="leftIcon" format="reference" />
+    <attr name="rightIcon" format="reference" />
+    <attr name="centerIcon" format="reference" />
+    <attr name="leftTitle" format="string" />
+    <attr name="rightTitle" format="string" />
+    <attr name="centerTitle" format="string" />
+    <attr name="leftView" format="reference" />
+    <attr name="rightView" format="reference" />
+    <attr name="centerView" format="reference" />
+
+    <attr name="disable" format="boolean" />
+    <attr name="columns" format="integer" />
+    <attr name="verticalSpace" format="dimension" />
+    <attr name="horizontalSpace" format="dimension" />
+    <attr name="gap" format="dimension" />
+    <attr name="xWeight" format="float" />
+    <attr name="yWeight" format="float" />
+    <attr name="orientation">
+        <enum name="horizontal" value="0" />
+        <enum name="vertical" value="1" />
+    </attr>
+
+    <declare-styleable name="MYZoomableImageView">
+        <attr name="visibleWidth" format="dimension" />
+        <attr name="visibleHeight" format="dimension" />
+        <attr name="fitMax" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="MYGridView">
+        <attr name="columns" />
+        <attr name="verticalSpace" />
+        <attr name="horizontalSpace" />
+    </declare-styleable>
+
+    <declare-styleable name="MYListView">
+        <attr name="orientation" />
+        <attr name="hasDivider" />
+        <attr name="isReversal" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="MYImageView">
+        <attr name="baseScreenWidth" format="integer" />
+        <attr name="xWeight" />
+        <attr name="yWeight" />
+        <attr name="defaultImage" format="reference" />
+        <attr name="isCenterCrop" format="boolean" />
+        <attr name="isGif" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="MYPagerCirCleIndicator">
+        <attr name="color" />
+        <attr name="gap" />
+    </declare-styleable>
+
+    <declare-styleable name="MYEditText">
+        <attr name="rightIcon" />
+        <attr name="leftIcon" />
+        <attr name="autoShowSoftInput" format="boolean" />
+        <attr name="inputType" format="integer">
+            <enum name="all" value="1" />
+            <enum name="num" value="2" />
+            <enum name="decimal_num" value="3" />
+            <enum name="simple_text" value="4" />
+            <enum name="all_without_symbol" value="5" />
+        </attr>
+        <attr name="validateType" format="integer">
+            <enum name="not_empty" value="0" />
+            <enum name="mobile_phone" value="1" />
+            <enum name="password" value="2" />
+            <enum name="nickname" value="3" />
+            <enum name="auth_code" value="4" />
+            <enum name="signature" value="5" />
+            <enum name="user_name" value="6" />
+            <enum name="telephone" value="7" />
+            <enum name="card_no" value="8" />
+            <enum name="email" value="9" />
+            <enum name="message" value="10" />
+            <enum name="comments" value="11" />
+            <enum name="search" value="12" />
+            <enum name="refund" value="13" />
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="MYBottomLineTabWidget">
+        <attr name="tabStringItems" format="reference" />
+        <attr name="indicatorColor" format="color" />
+        <attr name="tabTextColor" format="color" />
+        <attr name="tabTextHoverColor" format="color" />
+    </declare-styleable>
+
+    <declare-styleable name="MYRightOptionView">
+        <attr name="disable" />
+    </declare-styleable>
+
+    <declare-styleable name="MYSimpleListView">
+        <attr name="itemView" format="reference" />
+    </declare-styleable>
+</resources>

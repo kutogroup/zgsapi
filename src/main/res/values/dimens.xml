@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="common_footer_height">40dp</dimen>
+    <dimen name="common_pager_circle_indicator_height">6dp</dimen>
+
+    <dimen name="margin_1">4dp</dimen>
+    <dimen name="margin_2">6dp</dimen>
+    <dimen name="margin_3">8dp</dimen>
+    <dimen name="margin_4">10dp</dimen>
+    <dimen name="margin_5">12dp</dimen>
+    <dimen name="margin_6">14dp</dimen>
+    <dimen name="margin_7">16dp</dimen>
+    <dimen name="margin_8">18dp</dimen>
+    <dimen name="margin_9">20dp</dimen>
+    <dimen name="text_size_1">8sp</dimen>
+    <dimen name="text_size_2">10sp</dimen>
+    <dimen name="text_size_3">12sp</dimen>
+    <dimen name="text_size_4">14sp</dimen>
+    <dimen name="text_size_5">16sp</dimen>
+    <dimen name="text_size_6">18sp</dimen>
+</resources>

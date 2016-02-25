@@ -1,0 +1,10 @@
+<resources>
+    <string name="str_common_network_error">连接服务器失败，请检查网络后重试</string>
+    <string name="str_common_waiting">正在处理，请稍等</string>
+    <string name="str_common_loading_more">加载更多</string>
+    <string name="str_common_no_more">没有更多了~</string>
+    <string name="str_common_token_expired">账户已过期，请重新登录</string>
+    <string name="str_common_pull_to_refresh">下拉刷新</string>
+    <string name="str_common_release_to_refresh">松开刷新</string>
+    <string name="str_common_refreshing">正在刷新</string>
+</resources>

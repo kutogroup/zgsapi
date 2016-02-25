@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="iv_listview_loading" type="id" />
+    <item name="tv_listview_loading" type="id" />
+    <item name="vp_navigation_image" type="id" />
+    <item name="pi_navigation_image" type="id" />
+    <item name="ly_bottomline_container" type="id" />
+    <item name="v_bottomline_indicator" type="id" />
+    <item name="iv_pullrefresh_loading" type="id" />
+    <item name="tv_pullrefresh_loading" type="id" />
+</resources>
